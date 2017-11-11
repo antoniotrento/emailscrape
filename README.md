@@ -1,5 +1,5 @@
 # emailscrape
 
-pip install beautifulsoup4
+  pip install beautifulsoup4
 
-pip install urllib3
+  pip install urllib3
