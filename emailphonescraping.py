@@ -9,9 +9,9 @@ http://github.com/YannickLeRoux
 
 from bs4 import BeautifulSoup
 import re
-from urllib.request import urlopen
+from urllib2 import urlopen
 
-f = urlopen('http://www.bc.edu/a-z/directories/contact/quicknos.html')
+f = urlopen('https://jekynewage.github.io/funds/')
 
 s = BeautifulSoup(f, 'html.parser')
 s = s.get_text()
